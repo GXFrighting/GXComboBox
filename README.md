@@ -8,7 +8,7 @@
 
 ## Requirements
 - iOS 9.0+
-- Swift 3
+- Swift 3.2
 
 ## Example
 
