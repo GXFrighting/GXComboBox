@@ -1,14 +1,32 @@
 # GXComboBox
+[![CI Status](http://img.shields.io/travis/GXFrighting/GXComboBox.svg?style=flat)](https://travis-ci.org/GXFrighting/GXComboBox)
+[![Version](https://img.shields.io/cocoapods/v/GXComboBox.svg?style=flat)](http://cocoapods.org/pods/GXComboBox)
+[![License](https://img.shields.io/cocoapods/l/GXComboBox.svg?style=flat)](http://cocoapods.org/pods/GXComboBox)
+[![Platform](https://img.shields.io/cocoapods/p/GXComboBox.svg?style=flat)](http://cocoapods.org/pods/GXComboBox)
+
 - 一个支持（1-n）级下拉筛选组件
 
-# Contents
+## Requirements
+- iOS 9.0+
+- Swift 3
+
+## Example
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+## Installation
+
+GXComboBox is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'GXComboBox'
+```
+
+## Contents
 ![demo show](Untitled.gif)
 
-# How to use GXComboBox
-- Installation with CocoaPods: `pop 'GXComboBox'`
-- Manual import:
-    - Drag All files in the `GXComboBox` folder to project
-
+## How to use GXComboBox
 - GXComboBox use is like UITableView
 
 ```
@@ -90,7 +108,7 @@ protocol GXComboBoxViewDelegate {
     func comboBoxView(_ comboBoxView: GXComboBoxView, didSelectedRowAt indexPath: GXIndexPath)
 }
 ```
-# GXIndexPath
+## GXIndexPath
 
 ```
 class GXIndexPath {
@@ -108,11 +126,14 @@ class GXIndexPath {
     }
 }
 ```
-![GXIndexPath](GXIndexPath.jpeg)
+![GXIndexPath](GXIndexPath.png)
 
-# See the GXComBoBoxDemo for more details
+## Author
 
-# Licence
-MIT
+GXFrighting, 157610665@qq.com
+
+## License
+
+GXComboBox is available under the MIT license. See the LICENSE file for more info.
 
 

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GXComboBox_Example' do
+  pod 'GXComboBox', :path => '../'
+
+  target 'GXComboBox_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

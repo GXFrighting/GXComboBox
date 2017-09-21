@@ -1,0 +1,852 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09874B4F4ED006A475B8AE88D50D7B40 /* Pods-GXComboBox_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EB46AEC1947E27AD19DBB3F92872301 /* Pods-GXComboBox_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F77B5BDAA0067837A542F94DFC13A2F /* btn_default_img@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6D1ADBF8951C26F3A707E27E06B346E /* btn_default_img@3x.png */; };
+		143AFEFC87FE8F73A045A7342B85CD6F /* Pods-GXComboBox_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CCC3DF522637C2989B5D266CA995E0B /* Pods-GXComboBox_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15EF1FCA5DC35B7F47F4BEC13A6B8DE2 /* GXComboBoxBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A96578C7D3F827E275298E051473A5 /* GXComboBoxBtn.swift */; };
+		1BEBFC3C1480F736393416AA2DE03A17 /* Pods-GXComboBox_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 865691201ABE441527AAD1D7266DA03B /* Pods-GXComboBox_Tests-dummy.m */; };
+		2868F5B7D90A4840AC53DEAC2725E94C /* btn_selected_img@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 519404569A5963B0DB373094FAA53412 /* btn_selected_img@3x.png */; };
+		33346FEB6708D2B1DB86840CFB049EC8 /* GXComboBox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68DB0B5634EDF20CBE4383DDC41A5F8D /* GXComboBox-dummy.m */; };
+		36410F2C8D462BCD5A68DCF518701AE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		532CD74F695C29F2295B9B2365F1178B /* btn_selected_img@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57777D1295C5E1754827268E242588EE /* btn_selected_img@2x.png */; };
+		5AE328BFE2C943E149823AB07B1D7D97 /* Pods-GXComboBox_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E69AEBE3433CFCFD4125BE7B8011C3 /* Pods-GXComboBox_Example-dummy.m */; };
+		936D86DEDD726984020F84E6EE190BD8 /* btn_default_img@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AC1EEDB11C4E50E1940EABDDBAE9C7C /* btn_default_img@2x.png */; };
+		A5D9E027968D44E6CCEBBA6B51949D47 /* GXComboBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45ECEACF8D219B8F980F14B6FD9108EE /* GXComboBoxView.swift */; };
+		B60A6A9B68C8C3EB9A0F8BDDB48C2EF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		BB1D2B556D1593CBD3C1D8E170616C69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CF1BA333AD25A5D61163F884A56B0F82 /* GXComboBox.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2267634A284A0FF74AA3855A61F0C593 /* GXComboBox.bundle */; };
+		FD5D5498E3DB5F77B589A45680590A9A /* GXComboBox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F54A496E03E64B1727E3A88D6FE2ACE0 /* GXComboBox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03FBB3B5AF1AB50A3ACAEBE48860DBD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 548F90EA5B4F08D97FB0A0F0DD9927E2;
+			remoteInfo = GXComboBox;
+		};
+		98476C18A6F70EE8882ED8945D5280DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 634937CBC786C7D862D3C498860F48BE;
+			remoteInfo = "GXComboBox-GXComboBox";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D796A742B46D84A896D597B73AFA3B7 /* Pods_GXComboBox_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GXComboBox_Example.framework; path = "Pods-GXComboBox_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		132D57D25ED5BF1EFF3DFD13EB108D02 /* Pods-GXComboBox_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GXComboBox_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2267634A284A0FF74AA3855A61F0C593 /* GXComboBox.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = GXComboBox.bundle; path = GXComboBox.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DADAF87E64390A7495AD8EB1E0C426E /* Pods-GXComboBox_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GXComboBox_Tests-resources.sh"; sourceTree = "<group>"; };
+		3BF430A122C8EFE0857E95567A039733 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D560E92486D8425A08CDDBF3DD0937C /* Pods-GXComboBox_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GXComboBox_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3EA3F83BD9CB841E7C98AF9AE4DCB821 /* Pods-GXComboBox_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GXComboBox_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		3F877707C3CE3B29B77CDBB207307DA3 /* Pods-GXComboBox_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GXComboBox_Example-frameworks.sh"; sourceTree = "<group>"; };
+		40A96578C7D3F827E275298E051473A5 /* GXComboBoxBtn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GXComboBoxBtn.swift; path = GXComboBox/Classes/GXComboBoxBtn.swift; sourceTree = "<group>"; };
+		437125A67B5288867CADA10D3A459FEF /* GXComboBox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GXComboBox.xcconfig; sourceTree = "<group>"; };
+		45ECEACF8D219B8F980F14B6FD9108EE /* GXComboBoxView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GXComboBoxView.swift; path = GXComboBox/Classes/GXComboBoxView.swift; sourceTree = "<group>"; };
+		5190384BE394DCE6043AE5377BC71A0E /* Pods-GXComboBox_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GXComboBox_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		519404569A5963B0DB373094FAA53412 /* btn_selected_img@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "btn_selected_img@3x.png"; path = "GXComboBox/Assets/btn_selected_img@3x.png"; sourceTree = "<group>"; };
+		57777D1295C5E1754827268E242588EE /* btn_selected_img@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "btn_selected_img@2x.png"; path = "GXComboBox/Assets/btn_selected_img@2x.png"; sourceTree = "<group>"; };
+		5987DF932AC5C5AF5900F2AA5C51F95B /* Pods-GXComboBox_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GXComboBox_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5CCC3DF522637C2989B5D266CA995E0B /* Pods-GXComboBox_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GXComboBox_Example-umbrella.h"; sourceTree = "<group>"; };
+		64FBC24D0EDE5DE3A87AB93B7E07180D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		68DB0B5634EDF20CBE4383DDC41A5F8D /* GXComboBox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GXComboBox-dummy.m"; sourceTree = "<group>"; };
+		6A39A33DE6532F3B9BB6846984BE2B25 /* Pods-GXComboBox_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GXComboBox_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6ADA9C78352EDD67ABFD0527914BDCE6 /* GXComboBox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GXComboBox.modulemap; sourceTree = "<group>"; };
+		7EB46AEC1947E27AD19DBB3F92872301 /* Pods-GXComboBox_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GXComboBox_Tests-umbrella.h"; sourceTree = "<group>"; };
+		865691201ABE441527AAD1D7266DA03B /* Pods-GXComboBox_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GXComboBox_Tests-dummy.m"; sourceTree = "<group>"; };
+		8AC1EEDB11C4E50E1940EABDDBAE9C7C /* btn_default_img@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "btn_default_img@2x.png"; path = "GXComboBox/Assets/btn_default_img@2x.png"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9681DD5CD028154CA64F5743FB30949D /* Pods_GXComboBox_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GXComboBox_Tests.framework; path = "Pods-GXComboBox_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		988C9AA57CD31F41D167BD8E2025CA9F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2DE1725D6E245F057323547B5F1B221 /* Pods-GXComboBox_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GXComboBox_Example.modulemap"; sourceTree = "<group>"; };
+		C6D1ADBF8951C26F3A707E27E06B346E /* btn_default_img@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "btn_default_img@3x.png"; path = "GXComboBox/Assets/btn_default_img@3x.png"; sourceTree = "<group>"; };
+		CB2B15F9AC9AC4C51219AED84D5AF79C /* Pods-GXComboBox_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GXComboBox_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CF8F8AABCA5B109BF0F3CC31D6B92B9E /* Pods-GXComboBox_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GXComboBox_Example-resources.sh"; sourceTree = "<group>"; };
+		D76E646A12689696A2953053E4068596 /* ResourceBundle-GXComboBox-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-GXComboBox-Info.plist"; sourceTree = "<group>"; };
+		DA050123E5C57952BF02717AD1E9F090 /* GXComboBox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GXComboBox-prefix.pch"; sourceTree = "<group>"; };
+		E2D8B2019551208E2BEBEFB55241E6B7 /* Pods-GXComboBox_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GXComboBox_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E32088F1D79C17C36019FF7D0EE6BAC8 /* Pods-GXComboBox_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GXComboBox_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E8E69AEBE3433CFCFD4125BE7B8011C3 /* Pods-GXComboBox_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GXComboBox_Example-dummy.m"; sourceTree = "<group>"; };
+		E8F2C4AFF969705589284FDF1EAC208F /* GXComboBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GXComboBox.framework; path = GXComboBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5B8080CA006DF2BBA77B60032215F7 /* Pods-GXComboBox_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GXComboBox_Tests.modulemap"; sourceTree = "<group>"; };
+		F54A496E03E64B1727E3A88D6FE2ACE0 /* GXComboBox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GXComboBox-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68582A718132A6E2E6AE5045A768C34A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36410F2C8D462BCD5A68DCF518701AE1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80770781C2B5EBCDA16298603F1FCEBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B60A6A9B68C8C3EB9A0F8BDDB48C2EF4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8DDFC040CFF0D37061EF8BADF8A48E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB1D2B556D1593CBD3C1D8E170616C69 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0972BEC7F3E7DC03E8D051E0D248C64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		341D59D51FBDB62272303397A7A3C31E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6ADA9C78352EDD67ABFD0527914BDCE6 /* GXComboBox.modulemap */,
+				437125A67B5288867CADA10D3A459FEF /* GXComboBox.xcconfig */,
+				68DB0B5634EDF20CBE4383DDC41A5F8D /* GXComboBox-dummy.m */,
+				DA050123E5C57952BF02717AD1E9F090 /* GXComboBox-prefix.pch */,
+				F54A496E03E64B1727E3A88D6FE2ACE0 /* GXComboBox-umbrella.h */,
+				988C9AA57CD31F41D167BD8E2025CA9F /* Info.plist */,
+				D76E646A12689696A2953053E4068596 /* ResourceBundle-GXComboBox-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GXComboBox";
+			sourceTree = "<group>";
+		};
+		3C553FD600EAB25728F1A857CE29729B /* Pods-GXComboBox_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3BF430A122C8EFE0857E95567A039733 /* Info.plist */,
+				A2DE1725D6E245F057323547B5F1B221 /* Pods-GXComboBox_Example.modulemap */,
+				6A39A33DE6532F3B9BB6846984BE2B25 /* Pods-GXComboBox_Example-acknowledgements.markdown */,
+				E32088F1D79C17C36019FF7D0EE6BAC8 /* Pods-GXComboBox_Example-acknowledgements.plist */,
+				E8E69AEBE3433CFCFD4125BE7B8011C3 /* Pods-GXComboBox_Example-dummy.m */,
+				3F877707C3CE3B29B77CDBB207307DA3 /* Pods-GXComboBox_Example-frameworks.sh */,
+				CF8F8AABCA5B109BF0F3CC31D6B92B9E /* Pods-GXComboBox_Example-resources.sh */,
+				5CCC3DF522637C2989B5D266CA995E0B /* Pods-GXComboBox_Example-umbrella.h */,
+				132D57D25ED5BF1EFF3DFD13EB108D02 /* Pods-GXComboBox_Example.debug.xcconfig */,
+				CB2B15F9AC9AC4C51219AED84D5AF79C /* Pods-GXComboBox_Example.release.xcconfig */,
+			);
+			name = "Pods-GXComboBox_Example";
+			path = "Target Support Files/Pods-GXComboBox_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				C3CF9FEF711893A257B2A95DF2F9FEF3 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F88B53C30243FC9C810696961D772BC3 /* Products */,
+				9BC4B688AF2303F7C7A259D93738D664 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9BC4B688AF2303F7C7A259D93738D664 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C553FD600EAB25728F1A857CE29729B /* Pods-GXComboBox_Example */,
+				9FBD7A0C539C8B7B0598D27814FEB1C2 /* Pods-GXComboBox_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9FBD7A0C539C8B7B0598D27814FEB1C2 /* Pods-GXComboBox_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				64FBC24D0EDE5DE3A87AB93B7E07180D /* Info.plist */,
+				EF5B8080CA006DF2BBA77B60032215F7 /* Pods-GXComboBox_Tests.modulemap */,
+				E2D8B2019551208E2BEBEFB55241E6B7 /* Pods-GXComboBox_Tests-acknowledgements.markdown */,
+				3D560E92486D8425A08CDDBF3DD0937C /* Pods-GXComboBox_Tests-acknowledgements.plist */,
+				865691201ABE441527AAD1D7266DA03B /* Pods-GXComboBox_Tests-dummy.m */,
+				3EA3F83BD9CB841E7C98AF9AE4DCB821 /* Pods-GXComboBox_Tests-frameworks.sh */,
+				2DADAF87E64390A7495AD8EB1E0C426E /* Pods-GXComboBox_Tests-resources.sh */,
+				7EB46AEC1947E27AD19DBB3F92872301 /* Pods-GXComboBox_Tests-umbrella.h */,
+				5987DF932AC5C5AF5900F2AA5C51F95B /* Pods-GXComboBox_Tests.debug.xcconfig */,
+				5190384BE394DCE6043AE5377BC71A0E /* Pods-GXComboBox_Tests.release.xcconfig */,
+			);
+			name = "Pods-GXComboBox_Tests";
+			path = "Target Support Files/Pods-GXComboBox_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3CF9FEF711893A257B2A95DF2F9FEF3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E60653A272C1D0655C34B83C137EF25C /* GXComboBox */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E60653A272C1D0655C34B83C137EF25C /* GXComboBox */ = {
+			isa = PBXGroup;
+			children = (
+				40A96578C7D3F827E275298E051473A5 /* GXComboBoxBtn.swift */,
+				45ECEACF8D219B8F980F14B6FD9108EE /* GXComboBoxView.swift */,
+				F87ACF3559602F2A122E9CD947340655 /* Resources */,
+				341D59D51FBDB62272303397A7A3C31E /* Support Files */,
+			);
+			name = GXComboBox;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F87ACF3559602F2A122E9CD947340655 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8AC1EEDB11C4E50E1940EABDDBAE9C7C /* btn_default_img@2x.png */,
+				C6D1ADBF8951C26F3A707E27E06B346E /* btn_default_img@3x.png */,
+				57777D1295C5E1754827268E242588EE /* btn_selected_img@2x.png */,
+				519404569A5963B0DB373094FAA53412 /* btn_selected_img@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F88B53C30243FC9C810696961D772BC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2267634A284A0FF74AA3855A61F0C593 /* GXComboBox.bundle */,
+				E8F2C4AFF969705589284FDF1EAC208F /* GXComboBox.framework */,
+				0D796A742B46D84A896D597B73AFA3B7 /* Pods_GXComboBox_Example.framework */,
+				9681DD5CD028154CA64F5743FB30949D /* Pods_GXComboBox_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		04945F92D5D2F7B6BA918AC4D765FC06 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				143AFEFC87FE8F73A045A7342B85CD6F /* Pods-GXComboBox_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EABB2FFAFB3D6789AFD60B33CD9C165 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD5D5498E3DB5F77B589A45680590A9A /* GXComboBox-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4B0F24290E7E9C8BDD8D889E87C936B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09874B4F4ED006A475B8AE88D50D7B40 /* Pods-GXComboBox_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		548F90EA5B4F08D97FB0A0F0DD9927E2 /* GXComboBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 203775E8EEDC5D046039845F24F8265F /* Build configuration list for PBXNativeTarget "GXComboBox" */;
+			buildPhases = (
+				B8310FC6B0E0B954877D55836A1EDB87 /* Sources */,
+				68582A718132A6E2E6AE5045A768C34A /* Frameworks */,
+				D79DB2B303F7DDFF0F32F6FC2B7B5A63 /* Resources */,
+				6EABB2FFAFB3D6789AFD60B33CD9C165 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9ADEBD6D62793060886B6A464E4DD563 /* PBXTargetDependency */,
+			);
+			name = GXComboBox;
+			productName = GXComboBox;
+			productReference = E8F2C4AFF969705589284FDF1EAC208F /* GXComboBox.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		609D510C4F7732F7BFB92130A2F97E7B /* Pods-GXComboBox_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30676D43B5E3AA46B3346B9F6E08FF8C /* Build configuration list for PBXNativeTarget "Pods-GXComboBox_Example" */;
+			buildPhases = (
+				3A6DCC796D75DFED454C615B1B04DE56 /* Sources */,
+				B8DDFC040CFF0D37061EF8BADF8A48E3 /* Frameworks */,
+				04945F92D5D2F7B6BA918AC4D765FC06 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CB9657C59993D80B910BF3717A904C7 /* PBXTargetDependency */,
+			);
+			name = "Pods-GXComboBox_Example";
+			productName = "Pods-GXComboBox_Example";
+			productReference = 0D796A742B46D84A896D597B73AFA3B7 /* Pods_GXComboBox_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		634937CBC786C7D862D3C498860F48BE /* GXComboBox-GXComboBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A0F08805EB3EC5E6CF4F732615BDA9C /* Build configuration list for PBXNativeTarget "GXComboBox-GXComboBox" */;
+			buildPhases = (
+				7F4A3A6BB6748401432E5049DD4E49B7 /* Sources */,
+				C0972BEC7F3E7DC03E8D051E0D248C64 /* Frameworks */,
+				FD0161B6B20912ECC5F657E8FAC8763E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GXComboBox-GXComboBox";
+			productName = "GXComboBox-GXComboBox";
+			productReference = 2267634A284A0FF74AA3855A61F0C593 /* GXComboBox.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		7D01B79FF2D797491AE299CB5A3CF62F /* Pods-GXComboBox_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E42BC2A207F5D11C47C2A6403AE0C3AD /* Build configuration list for PBXNativeTarget "Pods-GXComboBox_Tests" */;
+			buildPhases = (
+				9E4EBBF451B40C1E74F70E8572576686 /* Sources */,
+				80770781C2B5EBCDA16298603F1FCEBE /* Frameworks */,
+				B4B0F24290E7E9C8BDD8D889E87C936B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GXComboBox_Tests";
+			productName = "Pods-GXComboBox_Tests";
+			productReference = 9681DD5CD028154CA64F5743FB30949D /* Pods_GXComboBox_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F88B53C30243FC9C810696961D772BC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				548F90EA5B4F08D97FB0A0F0DD9927E2 /* GXComboBox */,
+				634937CBC786C7D862D3C498860F48BE /* GXComboBox-GXComboBox */,
+				609D510C4F7732F7BFB92130A2F97E7B /* Pods-GXComboBox_Example */,
+				7D01B79FF2D797491AE299CB5A3CF62F /* Pods-GXComboBox_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D79DB2B303F7DDFF0F32F6FC2B7B5A63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF1BA333AD25A5D61163F884A56B0F82 /* GXComboBox.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD0161B6B20912ECC5F657E8FAC8763E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				936D86DEDD726984020F84E6EE190BD8 /* btn_default_img@2x.png in Resources */,
+				0F77B5BDAA0067837A542F94DFC13A2F /* btn_default_img@3x.png in Resources */,
+				532CD74F695C29F2295B9B2365F1178B /* btn_selected_img@2x.png in Resources */,
+				2868F5B7D90A4840AC53DEAC2725E94C /* btn_selected_img@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A6DCC796D75DFED454C615B1B04DE56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE328BFE2C943E149823AB07B1D7D97 /* Pods-GXComboBox_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F4A3A6BB6748401432E5049DD4E49B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E4EBBF451B40C1E74F70E8572576686 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BEBFC3C1480F736393416AA2DE03A17 /* Pods-GXComboBox_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8310FC6B0E0B954877D55836A1EDB87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33346FEB6708D2B1DB86840CFB049EC8 /* GXComboBox-dummy.m in Sources */,
+				15EF1FCA5DC35B7F47F4BEC13A6B8DE2 /* GXComboBoxBtn.swift in Sources */,
+				A5D9E027968D44E6CCEBBA6B51949D47 /* GXComboBoxView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CB9657C59993D80B910BF3717A904C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GXComboBox;
+			target = 548F90EA5B4F08D97FB0A0F0DD9927E2 /* GXComboBox */;
+			targetProxy = 03FBB3B5AF1AB50A3ACAEBE48860DBD4 /* PBXContainerItemProxy */;
+		};
+		9ADEBD6D62793060886B6A464E4DD563 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "GXComboBox-GXComboBox";
+			target = 634937CBC786C7D862D3C498860F48BE /* GXComboBox-GXComboBox */;
+			targetProxy = 98476C18A6F70EE8882ED8945D5280DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F4D6F4C092C88FD1A1E0D0724AD75A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 437125A67B5288867CADA10D3A459FEF /* GXComboBox.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GXComboBox";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/GXComboBox/ResourceBundle-GXComboBox-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = GXComboBox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		2FBCAD1099AA7E58ACC607EB2779D56D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 437125A67B5288867CADA10D3A459FEF /* GXComboBox.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GXComboBox/GXComboBox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GXComboBox/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GXComboBox/GXComboBox.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GXComboBox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		728C2D12287154A1688EDBE1020895BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 437125A67B5288867CADA10D3A459FEF /* GXComboBox.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GXComboBox";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/GXComboBox/ResourceBundle-GXComboBox-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = GXComboBox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		7A5E38057378B1D68DAF49F6108D1C38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB2B15F9AC9AC4C51219AED84D5AF79C /* Pods-GXComboBox_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GXComboBox_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GXComboBox_Example/Pods-GXComboBox_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GXComboBox_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		97803B46811A9BDB5E70FA1303AFBFFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B6057BFA91807CDFA1CD0075ED373816 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5190384BE394DCE6043AE5377BC71A0E /* Pods-GXComboBox_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GXComboBox_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GXComboBox_Tests/Pods-GXComboBox_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GXComboBox_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE482B6FDD3A1C460274EC72F7574188 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 132D57D25ED5BF1EFF3DFD13EB108D02 /* Pods-GXComboBox_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GXComboBox_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GXComboBox_Example/Pods-GXComboBox_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GXComboBox_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E2D3B95AB4AFA577C83C1EAF0CC50A6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 437125A67B5288867CADA10D3A459FEF /* GXComboBox.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GXComboBox/GXComboBox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GXComboBox/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GXComboBox/GXComboBox.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GXComboBox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EEBF28493D2C0943090DE558DB78C08C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5987DF932AC5C5AF5900F2AA5C51F95B /* Pods-GXComboBox_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GXComboBox_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GXComboBox_Tests/Pods-GXComboBox_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GXComboBox_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		203775E8EEDC5D046039845F24F8265F /* Build configuration list for PBXNativeTarget "GXComboBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FBCAD1099AA7E58ACC607EB2779D56D /* Debug */,
+				E2D3B95AB4AFA577C83C1EAF0CC50A6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97803B46811A9BDB5E70FA1303AFBFFE /* Debug */,
+				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30676D43B5E3AA46B3346B9F6E08FF8C /* Build configuration list for PBXNativeTarget "Pods-GXComboBox_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE482B6FDD3A1C460274EC72F7574188 /* Debug */,
+				7A5E38057378B1D68DAF49F6108D1C38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A0F08805EB3EC5E6CF4F732615BDA9C /* Build configuration list for PBXNativeTarget "GXComboBox-GXComboBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F4D6F4C092C88FD1A1E0D0724AD75A1 /* Debug */,
+				728C2D12287154A1688EDBE1020895BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E42BC2A207F5D11C47C2A6403AE0C3AD /* Build configuration list for PBXNativeTarget "Pods-GXComboBox_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEBF28493D2C0943090DE558DB78C08C /* Debug */,
+				B6057BFA91807CDFA1CD0075ED373816 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

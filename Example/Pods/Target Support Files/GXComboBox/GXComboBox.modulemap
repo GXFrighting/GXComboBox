@@ -1,0 +1,6 @@
+framework module GXComboBox {
+  umbrella header "GXComboBox-umbrella.h"
+
+  export *
+  module * { export * }
+}
