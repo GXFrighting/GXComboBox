@@ -2,7 +2,7 @@
 - 一个支持（1-n）级下拉筛选组件
 
 # Contents
-![](Untitled.gif)
+![demo show](Untitled.gif)
 
 # How to use GXComboBox
 - Installation with CocoaPods: `pop 'GXComboBox'`
@@ -108,7 +108,7 @@ class GXIndexPath {
     }
 }
 ```
-![](GXIndexPath.png)
+![GXIndexPath](GXIndexPath.jpeg)
 
 # See the GXComBoBoxDemo for more details
 
