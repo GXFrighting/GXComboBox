@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E918D5FD1F734CB00057A8C6 /* GXComboBox.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E918D5FA1F734CB00057A8C6 /* GXComboBox.bundle */; };
+		E918D5FE1F734CB00057A8C6 /* GXComboBoxBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = E918D5FB1F734CB00057A8C6 /* GXComboBoxBtn.swift */; };
+		E918D5FF1F734CB00057A8C6 /* GXComboBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E918D5FC1F734CB00057A8C6 /* GXComboBoxView.swift */; };
 		E92B29671F7212190042E39D /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = E92B29661F7212190042E39D /* data.plist */; };
 		E92B29691F7212520042E39D /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92B29681F7212520042E39D /* TestModel.swift */; };
 		E9B4EB0A1F70FA760071F77E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B4EB091F70FA760071F77E /* AppDelegate.swift */; };
@@ -14,12 +17,12 @@
 		E9B4EB0F1F70FA760071F77E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9B4EB0D1F70FA760071F77E /* Main.storyboard */; };
 		E9B4EB111F70FA760071F77E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9B4EB101F70FA760071F77E /* Assets.xcassets */; };
 		E9B4EB141F70FA760071F77E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9B4EB121F70FA760071F77E /* LaunchScreen.storyboard */; };
-		E9B4EB1D1F70FB470071F77E /* GXComboBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B4EB1C1F70FB470071F77E /* GXComboBoxView.swift */; };
-		E9B4EB1F1F710D1D0071F77E /* GXComboBox.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E9B4EB1E1F710D1D0071F77E /* GXComboBox.bundle */; };
-		E9B4EB211F711E3F0071F77E /* GXComboBoxBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B4EB201F711E3F0071F77E /* GXComboBoxBtn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E918D5FA1F734CB00057A8C6 /* GXComboBox.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GXComboBox.bundle; sourceTree = "<group>"; };
+		E918D5FB1F734CB00057A8C6 /* GXComboBoxBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GXComboBoxBtn.swift; sourceTree = "<group>"; };
+		E918D5FC1F734CB00057A8C6 /* GXComboBoxView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GXComboBoxView.swift; sourceTree = "<group>"; };
 		E92B29661F7212190042E39D /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
 		E92B29681F7212520042E39D /* TestModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestModel.swift; sourceTree = "<group>"; };
 		E9B4EB061F70FA760071F77E /* GXComboBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GXComboBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,9 +32,6 @@
 		E9B4EB101F70FA760071F77E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9B4EB131F70FA760071F77E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9B4EB151F70FA760071F77E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E9B4EB1C1F70FB470071F77E /* GXComboBoxView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GXComboBoxView.swift; sourceTree = "<group>"; };
-		E9B4EB1E1F710D1D0071F77E /* GXComboBox.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GXComboBox.bundle; sourceTree = "<group>"; };
-		E9B4EB201F711E3F0071F77E /* GXComboBoxBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GXComboBoxBtn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +45,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E918D5F91F734CB00057A8C6 /* GXComboBox */ = {
+			isa = PBXGroup;
+			children = (
+				E918D5FA1F734CB00057A8C6 /* GXComboBox.bundle */,
+				E918D5FB1F734CB00057A8C6 /* GXComboBoxBtn.swift */,
+				E918D5FC1F734CB00057A8C6 /* GXComboBoxView.swift */,
+			);
+			name = GXComboBox;
+			path = ../../GXComboBox;
+			sourceTree = "<group>";
+		};
 		E9B4EAFD1F70FA760071F77E = {
 			isa = PBXGroup;
 			children = (
@@ -64,7 +75,7 @@
 		E9B4EB081F70FA760071F77E /* GXComboBox */ = {
 			isa = PBXGroup;
 			children = (
-				E9B4EB1B1F70FAB90071F77E /* GXComboBox */,
+				E918D5F91F734CB00057A8C6 /* GXComboBox */,
 				E9B4EB091F70FA760071F77E /* AppDelegate.swift */,
 				E9B4EB0B1F70FA760071F77E /* ViewController.swift */,
 				E9B4EB0D1F70FA760071F77E /* Main.storyboard */,
@@ -73,16 +84,6 @@
 				E9B4EB151F70FA760071F77E /* Info.plist */,
 				E92B29661F7212190042E39D /* data.plist */,
 				E92B29681F7212520042E39D /* TestModel.swift */,
-			);
-			path = GXComboBox;
-			sourceTree = "<group>";
-		};
-		E9B4EB1B1F70FAB90071F77E /* GXComboBox */ = {
-			isa = PBXGroup;
-			children = (
-				E9B4EB1E1F710D1D0071F77E /* GXComboBox.bundle */,
-				E9B4EB1C1F70FB470071F77E /* GXComboBoxView.swift */,
-				E9B4EB201F711E3F0071F77E /* GXComboBoxBtn.swift */,
 			);
 			path = GXComboBox;
 			sourceTree = "<group>";
@@ -148,9 +149,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9B4EB141F70FA760071F77E /* LaunchScreen.storyboard in Resources */,
-				E9B4EB1F1F710D1D0071F77E /* GXComboBox.bundle in Resources */,
 				E9B4EB111F70FA760071F77E /* Assets.xcassets in Resources */,
 				E92B29671F7212190042E39D /* data.plist in Resources */,
+				E918D5FD1F734CB00057A8C6 /* GXComboBox.bundle in Resources */,
 				E9B4EB0F1F70FA760071F77E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -164,9 +165,9 @@
 			files = (
 				E9B4EB0C1F70FA760071F77E /* ViewController.swift in Sources */,
 				E9B4EB0A1F70FA760071F77E /* AppDelegate.swift in Sources */,
+				E918D5FF1F734CB00057A8C6 /* GXComboBoxView.swift in Sources */,
+				E918D5FE1F734CB00057A8C6 /* GXComboBoxBtn.swift in Sources */,
 				E92B29691F7212520042E39D /* TestModel.swift in Sources */,
-				E9B4EB211F711E3F0071F77E /* GXComboBoxBtn.swift in Sources */,
-				E9B4EB1D1F70FB470071F77E /* GXComboBoxView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

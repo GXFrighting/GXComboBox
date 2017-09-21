@@ -22,6 +22,7 @@ class ViewController: UIViewController, UITableViewDelegate {
         setUpData()
         
         comboBoxView.backgroundColor = UIColor.white
+        
         comboBoxView.delegate = self
         comboBoxView.dataSoure = self
         
@@ -63,7 +64,7 @@ class ViewController: UIViewController, UITableViewDelegate {
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         
-        comboBoxView.frame = CGRect.init(x: 0, y: 20, width: UIScreen.main.bounds.width, height: 44)
+        comboBoxView.frame = CGRect.init(x: 0, y: 50, width: UIScreen.main.bounds.width, height: 44)
     }
 }
 
@@ -191,7 +192,6 @@ extension ViewController: GXComboBoxViewDataSoure {
         cell.selectionStyle = .none
         
         if model != nil {
-//            UIColor(red: <#T##CGFloat#>, green: <#T##CGFloat#>, blue: <#T##CGFloat#>, alpha: <#T##CGFloat#>)
             cell.backgroundColor = model!.isSelected ? UIColor.groupTableViewBackground : UIColor.white
         }
         cell.textLabel?.text = model?.title ?? ""

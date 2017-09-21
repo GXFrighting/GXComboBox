@@ -15,27 +15,91 @@ class GXComboBoxViewType {
     var selectedTitleColor: UIColor = UIColor.init(red: 62/255.0, green: 92/255.0, blue: 238/255.0, alpha: 1)
 }
 
+class GXIndexPath {
+    /// 列 （顶部按钮tag 0，1，2...）
+    var column: Int
+    /// 第几个tableview
+    var section: Int
+    /// 第几行
+    var row: Int
+    
+    init(row: Int, section: Int, column: Int) {
+        self.section = section
+        self.row = row
+        self.column = column
+    }
+}
+
 // MARK: GXComboBoxViewDataSoure
 protocol GXComboBoxViewDataSoure {
     
+    /// 在这里注册每个TableView Cell
+    ///
+    /// - Parameters:
+    ///   - comboBoxView: comboBoxView
+    ///   - column: 列数
+    ///   - section: 第几个TableView
+    ///   - tableView: TableView
+    /// - Returns: void
+    func comboBoxView(_ comboBoxView: GXComboBoxView, numberOfSectionInColumn column: Int, section: Int, regiseCell tableView: UITableView)
+    
+    /// 获取列数
+    ///
+    /// - Parameters:
+    ///   - comboBoxView: comboBoxView
+    /// - Returns: 列数（顶部按钮多少个）
     func numberOfColumn(in comboBoxView: GXComboBoxView) -> Int
     
+    /// 获取列对应的tableView个数
+    ///
+    /// - Parameters:
+    ///   - comboBoxView: comboBoxView
+    ///   - column: 列数
+    /// - Returns: tableView个数
     func comboBoxView(_ comboBoxView: GXComboBoxView, numberOfSectionInColumn column: Int) -> Int
-    
-    func comboBoxView(_ comboBoxView: GXComboBoxView, numberOfSectionInColumn column: Int, section: Int, regiseCell tableView: UITableView)
 
+    /// 获取每个tableview row个数
+    ///
+    /// - Parameters:
+    ///   - comboBoxView: comboBoxView
+    ///   - column: 列数
+    ///   - section: 第几个TableView
+    /// - Returns: row
     func comboBoxView(_ comboBoxView: GXComboBoxView, numberOfRowsInColum column: Int, section: Int) -> Int
 
+    /// 获取cell
+    ///
+    /// - Parameters:
+    ///   - comboBoxView: comboBoxView
+    ///   - indexPath: indexPath
+    /// - Returns: cell
     func comboBoxView(_ comboBoxView: GXComboBoxView, cellForRowAt indexPath: GXIndexPath) -> UITableViewCell
     
+    /// 按钮的标题
+    ///
+    /// - Parameters:
+    ///   - comboBoxView: comboBoxView
+    ///   - column: 列数
+    /// - Returns: 按钮标题
     func titleOfColumn(_ comboBoxView: GXComboBoxView, numberOfColumn column: Int) -> String
 }
 
 // MARK: GXComboBoxViewDelegate
 protocol GXComboBoxViewDelegate {
     
+    /// cell height
+    ///
+    /// - Parameters:
+    ///   - comboBoxView: comboBoxView
+    ///   - indexPath: indexPath
+    /// - Returns: cell height
     func comboBoxView(_ comboBoxView: GXComboBoxView, heightForRowAt indexPath: GXIndexPath) -> CGFloat
     
+    /// cell click
+    ///
+    /// - Parameters:
+    ///   - comboBoxView: comboBoxView
+    ///   - indexPath: indexPath
     func comboBoxView(_ comboBoxView: GXComboBoxView, didSelectedRowAt indexPath: GXIndexPath)
 }
 
@@ -69,7 +133,6 @@ class GXComboBoxView: UIView {
     fileprivate var popView: UIView = {
         let view = UIView()
         view.backgroundColor = UIColor.black.withAlphaComponent(0.5)
-        
         return view
     }()
     
@@ -114,7 +177,7 @@ class GXComboBoxView: UIView {
         setUpTitles()
     }
     
-    func closeSelecting() {
+    @objc func closeSelecting() {
         hidenPopView(isAnimal: true)
         hidenTableViews(isAnimal: true)
         
@@ -198,7 +261,8 @@ extension GXComboBoxView {
             
             if col < tableViews.count {
                 for _ in 0..<(tableViews.count - col) {
-                    tableViewStackView.removeArrangedSubview(tableViews.last!)
+                    tableViews.last!.removeFromSuperview()
+//                    tableViewStackView.removeArrangedSubview(tableViews.last!)
                     tableViews.removeLast()
                 }
             } else if col > tableViews.count {
@@ -213,7 +277,8 @@ extension GXComboBoxView {
                     tableView.delegate = self
                     
                     tableView.translatesAutoresizingMaskIntoConstraints = false
-                    
+                    tableView.frame.origin.x = (frame.size.width / CGFloat(col)) * CGFloat(i)
+                    tableView.frame.size.width = frame.size.width / CGFloat(col)
                     let heightConstraint = NSLayoutConstraint(item: tableView, attribute: .height, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 1, constant: 0)
                     
                     tableView.addConstraint(heightConstraint)
@@ -233,6 +298,10 @@ extension GXComboBoxView {
                 
                 tableView.constraints.first?.constant = height > maxHeight ? maxHeight : height
             }
+            
+            UIView.animate(withDuration: 0.25, animations: {
+                self.tableViewStackView.layoutIfNeeded()
+            })
             
         } else {
             // 没有选中
@@ -257,7 +326,10 @@ extension GXComboBoxView {
     
     fileprivate func hidenTableViews(isAnimal: Bool) {
         
-        UIView.animate(withDuration: isAnimal ? 0.25 : 0, animations: { 
+        _ = self.tableViews.map({ $0.constraints.first?.constant = 0 })
+        
+        UIView.animate(withDuration: isAnimal ? 0.25 : 0, animations: {
+            self.tableViewStackView.layoutIfNeeded()
             self.tableViewStackView.frame = CGRect.init(x: 0, y: self.frame.maxY, width: self.frame.size.width, height: 0)
         }) { (_) in
             self.tableViewStackView.removeFromSuperview()
@@ -268,7 +340,7 @@ extension GXComboBoxView {
     fileprivate func removeAllTableViews() {
         
         for tableView in tableViews {
-            tableViewStackView.removeArrangedSubview(tableView)
+            tableView.removeFromSuperview()
         }
         
         tableViews.removeAll()
@@ -353,17 +425,3 @@ extension GXComboBoxView: UITableViewDelegate {
     }
 }
 
-class GXIndexPath {
-    
-    var column: Int
-    
-    var section: Int
-    
-    var row: Int
-    
-    init(row: Int, section: Int, column: Int) {
-        self.section = section
-        self.row = row
-        self.column = column
-    }
-}
