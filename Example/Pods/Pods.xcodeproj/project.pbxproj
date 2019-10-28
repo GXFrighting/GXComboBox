@@ -43,9 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0D796A742B46D84A896D597B73AFA3B7 /* Pods_GXComboBox_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GXComboBox_Example.framework; path = "Pods-GXComboBox_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D796A742B46D84A896D597B73AFA3B7 /* Pods_GXComboBox_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GXComboBox_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		132D57D25ED5BF1EFF3DFD13EB108D02 /* Pods-GXComboBox_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GXComboBox_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		2267634A284A0FF74AA3855A61F0C593 /* GXComboBox.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = GXComboBox.bundle; path = GXComboBox.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		2267634A284A0FF74AA3855A61F0C593 /* GXComboBox.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GXComboBox.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DADAF87E64390A7495AD8EB1E0C426E /* Pods-GXComboBox_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GXComboBox_Tests-resources.sh"; sourceTree = "<group>"; };
 		3BF430A122C8EFE0857E95567A039733 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D560E92486D8425A08CDDBF3DD0937C /* Pods-GXComboBox_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GXComboBox_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -63,14 +63,14 @@
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		68DB0B5634EDF20CBE4383DDC41A5F8D /* GXComboBox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GXComboBox-dummy.m"; sourceTree = "<group>"; };
 		6A39A33DE6532F3B9BB6846984BE2B25 /* Pods-GXComboBox_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GXComboBox_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6ADA9C78352EDD67ABFD0527914BDCE6 /* GXComboBox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GXComboBox.modulemap; sourceTree = "<group>"; };
+		6ADA9C78352EDD67ABFD0527914BDCE6 /* GXComboBox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = GXComboBox.modulemap; sourceTree = "<group>"; };
 		7EB46AEC1947E27AD19DBB3F92872301 /* Pods-GXComboBox_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GXComboBox_Tests-umbrella.h"; sourceTree = "<group>"; };
 		865691201ABE441527AAD1D7266DA03B /* Pods-GXComboBox_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GXComboBox_Tests-dummy.m"; sourceTree = "<group>"; };
 		8AC1EEDB11C4E50E1940EABDDBAE9C7C /* btn_default_img@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "btn_default_img@2x.png"; path = "GXComboBox/Assets/btn_default_img@2x.png"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9681DD5CD028154CA64F5743FB30949D /* Pods_GXComboBox_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GXComboBox_Tests.framework; path = "Pods-GXComboBox_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9681DD5CD028154CA64F5743FB30949D /* Pods_GXComboBox_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GXComboBox_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		988C9AA57CD31F41D167BD8E2025CA9F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A2DE1725D6E245F057323547B5F1B221 /* Pods-GXComboBox_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GXComboBox_Example.modulemap"; sourceTree = "<group>"; };
+		A2DE1725D6E245F057323547B5F1B221 /* Pods-GXComboBox_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GXComboBox_Example.modulemap"; sourceTree = "<group>"; };
 		C6D1ADBF8951C26F3A707E27E06B346E /* btn_default_img@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "btn_default_img@3x.png"; path = "GXComboBox/Assets/btn_default_img@3x.png"; sourceTree = "<group>"; };
 		CB2B15F9AC9AC4C51219AED84D5AF79C /* Pods-GXComboBox_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GXComboBox_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CF8F8AABCA5B109BF0F3CC31D6B92B9E /* Pods-GXComboBox_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GXComboBox_Example-resources.sh"; sourceTree = "<group>"; };
@@ -79,8 +79,8 @@
 		E2D8B2019551208E2BEBEFB55241E6B7 /* Pods-GXComboBox_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GXComboBox_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E32088F1D79C17C36019FF7D0EE6BAC8 /* Pods-GXComboBox_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GXComboBox_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		E8E69AEBE3433CFCFD4125BE7B8011C3 /* Pods-GXComboBox_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GXComboBox_Example-dummy.m"; sourceTree = "<group>"; };
-		E8F2C4AFF969705589284FDF1EAC208F /* GXComboBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GXComboBox.framework; path = GXComboBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF5B8080CA006DF2BBA77B60032215F7 /* Pods-GXComboBox_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GXComboBox_Tests.modulemap"; sourceTree = "<group>"; };
+		E8F2C4AFF969705589284FDF1EAC208F /* GXComboBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GXComboBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5B8080CA006DF2BBA77B60032215F7 /* Pods-GXComboBox_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GXComboBox_Tests.modulemap"; sourceTree = "<group>"; };
 		F54A496E03E64B1727E3A88D6FE2ACE0 /* GXComboBox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GXComboBox-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -363,6 +363,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
@@ -497,7 +498,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -755,7 +756,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";

@@ -8,7 +8,7 @@
 
 ## Requirements
 - iOS 9.0+
-- Swift 3.2
+- Swift 5.2
 
 ## Example
 
@@ -24,7 +24,7 @@ pod 'GXComboBox'
 ```
 
 ## Contents
-![demo show](Untitled.gif)
+![demo show](./Untitled.gif)
 
 ## How to use GXComboBox
 - GXComboBox use is like UITableView
@@ -126,7 +126,7 @@ class GXIndexPath {
     }
 }
 ```
-![GXIndexPath](GXIndexPath.png)
+![GXIndexPath](./GXIndexPath.png)
 
 ## Author
 
